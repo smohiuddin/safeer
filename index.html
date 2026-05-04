@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Safeer Mohiuddin</title>
+  <meta name="description" content="Tech and finance entrepeneur">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      background: #fff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body { font-family: 'Inter', sans-serif; }
+
+    .outer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 20px;
+      min-height: 100vh;
+    }
+
+    .inner {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      width: 960px;
+      max-width: 100%;
+      padding: 80px 0;
+    }
+
+    /* Title */
+    .site-title {
+      font-size: 24px;
+      font-weight: 650;
+      font-variation-settings: "opsz" 32, "wght" 650;
+      letter-spacing: -0.02em;
+      line-height: 1em;
+      color: #000;
+      font-feature-settings: "cv01" on, "cv09" on, "cv11" on, "cv05" on, "ss03" on;
+    }
+
+    .site-subtitle {
+      font-size: 18px;
+      font-weight: 600;
+      font-variation-settings: "opsz" 32, "wght" 600;
+      letter-spacing: -0.02em;
+      line-height: 1em;
+      color: #999;
+      font-feature-settings: "cv01" on, "cv09" on, "cv11" on, "cv05" on, "ss03" on;
+    }
+
+    /* Section label */
+    .section-label {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      line-height: 1.3em;
+      color: #999;
+      font-feature-settings: "cv01" on, "cv09" on, "cv11" on, "cv05" on, "ss03" on;
+      width: 400px;
+      max-width: 100%;
+    }
+
+    /* Section block */
+    .section {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* Grid of items */
+    .grid {
+      display: flex;
+      flex-flow: row wrap;
+      gap: 30px 50px;
+      width: 100%;
+    }
+
+    .col-39 {
+      width: 39%;
+      font-size: 15px;
+      font-weight: 500;
+      font-variation-settings: "opsz" 24, "wght" 500;
+      letter-spacing: -0.01em;
+      line-height: 1.3em;
+      color: #777;
+      font-feature-settings: "cv01" on, "cv09" on, "cv11" on, "cv05" on, "ss03" on;
+    }
+
+    .col-49 {
+      width: 49%;
+      font-size: 15px;
+      font-weight: 500;
+      font-variation-settings: "opsz" 24, "wght" 500;
+      letter-spacing: -0.01em;
+      line-height: 1.3em;
+      color: #777;
+      font-feature-settings: "cv01" on, "cv09" on, "cv11" on, "cv05" on, "ss03" on;
+    }
+
+    /* Links */
+    a {
+      color: #09f;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #08f;
+      text-decoration: underline;
+    }
+
+    /* Bullet lists */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: 15px;
+      font-weight: 500;
+      font-variation-settings: "opsz" 24, "wght" 500;
+      letter-spacing: -0.01em;
+      line-height: 1.3em;
+      color: #777;
+      font-feature-settings: "cv01" on, "cv09" on, "cv11" on, "cv05" on, "ss03" on;
+    }
+
+    ul li {
+      padding-left: 2ch;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+    }
+
+    @media (max-width: 809px) {
+      .inner { padding: 40px 0; gap: 20px; }
+      .grid { flex-direction: column; gap: 12px; }
+      .col-39, .col-49 { width: 100%; }
+      .section { gap: 6px; }
+    }
+
+    @media (min-width: 810px) and (max-width: 1199px) {
+      .col-39 { width: 40%; }
+    }
+  </style>
+</head>
+<body>
+<div class="outer">
+  <div class="inner">
+
+    <!-- Title -->
+    <div>
+      <div class="site-title">Safeer Mohiuddin</div>
+      <div class="site-subtitle">Founder &amp; Investor</div>
+    </div>
+
+    <!-- Co-Founder -->
+    <div class="section">
+      <div class="section-label">Co-Founder</div>
+      <div class="grid">
+        <div class="col-39">
+          <a href="https://guardrailsai.com" target="_blank" rel="noopener">Guardrails AI</a>
+          <br><br>
+          The framework to make Generative AI safe, secure and reliable.
+        </div>
+        <div class="col-39">
+          <a href="https://cordobafunds.com" target="_blank" rel="noopener">Cordoba Funds</a>
+          <br><br>
+          Friends and family investment funds since 2016.
+        </div>
+        <div class="col-39">
+          <a href="https://neeyah.com" target="_blank" rel="noopener">Neeyah</a>
+          <br><br>
+          Reinventing homeownership<strong>.</strong> Homeowners and investors co-owning homes debt-free.
+        </div>
+        <div class="col-39">
+          <a href="https://souq.capital" target="_blank" rel="noopener">Souq Capital</a>
+          <br><br>
+          Fueling growth for high-performance businesses with debt-free, always aligned working capital.
+        </div>
+      </div>
+    </div>
+
+    <!-- Investments -->
+    <div class="section">
+      <div class="section-label">Investments</div>
+      <div class="grid">
+        <ul class="col-49">
+          <li>Levels.fyi</li>
+          <li>Zoya Finance</li>
+          <li>inshAllah</li>
+          <li>Blendid</li>
+          <li>Fith</li>
+          <li>Visual Artistry</li>
+          <li>NoorQuest Capital</li>
+          <li>Biotics AI</li>
+          <li>Delfina</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Personal Finance -->
+    <div class="section">
+      <div class="section-label">Personal Finance</div>
+      <div class="grid">
+        <ul class="col-49">
+          <li><a href="https://101.finance" target="_blank" rel="noopener">101.finance</a> and <a href="https://muslim.finance" target="_blank" rel="noopener">muslim.finance</a></li>
+          <li><a href="https://dashboard.m1.com/share?token=dbdc20f6-c260-3a95-8182-2c73d435aeed&referrerCode=dqkPO401jHTk" target="_blank" rel="noopener">My Portfolio</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Non-Profits -->
+    <div class="section">
+      <div class="section-label">Non-Profits</div>
+      <div class="grid">
+        <ul class="col-49">
+          <li><a href="https://acceducate.org" target="_blank" rel="noopener">A Continuous Charity</a></li>
+          <li><a href="http://islamicendowmentadvisors.org" target="_blank" rel="noopener">Islamic Endowment Advisors</a></li>
+          <li><a href="https://www.taybafoundation.org" target="_blank" rel="noopener">Tayba Foundation</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
